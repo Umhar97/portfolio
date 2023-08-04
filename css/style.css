@@ -3,7 +3,7 @@
 }
 
 :root {
-  --primary: rgb(63, 102, 217);
+  --primary: rgb(50, 77, 158);
   --secondary: rgb(251, 142, 134);
   --dark: rgba(28,29,33,1);
   --light: rgb(242, 242, 246, 1);
@@ -33,11 +33,22 @@ p {
 
 
 header {
-  padding: 20px 6%;
+  padding: 20px 6% 15px 0;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: wrap;
   align-items: center;
+  background-color: var(--primary);
+  box-shadow: 0 5px 35px rgb(163, 163, 163);
+}
+
+header h1 {
+  color: var(--dark);
   background-color: var(--secondary);
+  padding: 5px 1% 5px 6;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+
 }
