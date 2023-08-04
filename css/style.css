@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: rgb(63, 102, 217);
+  --secondary: rgb(251, 142, 134);
+  --dark: rgba(28,29,33,1);
+  --light: rgb(242, 242, 246, 1);
+
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,4 +29,15 @@ h6 {
 
 p {
   margin: 0;
+}
+
+
+header {
+  padding: 20px 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--secondary);
 }
