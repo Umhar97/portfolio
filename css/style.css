@@ -7,7 +7,7 @@
   --secondary: rgba(213,184,255,1);
   --dark: rgba(28,29,33,1);
   --light: rgba(242, 242, 246, 1);
-  --tertiary: rgba(204,204,204,1);
+  --tertiary: rgba(51,51,51,1);
 
 }
 
@@ -103,4 +103,27 @@ main {
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
+}
+
+.hero-banner div {
+  flex: 0 0 90%;
+
+}
+
+.hero-banner h2 {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  display: inline;
+
+}
+
+.page-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
