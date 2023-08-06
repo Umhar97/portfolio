@@ -3,10 +3,12 @@
 }
 
 :root {
-  --primary: rgb(54,1,63,1);
-  --secondary: rgb(213,184,255,1);
+  --primary: rgba(54,1,63,1);
+  --secondary: rgba(213,184,255,1);
   --dark: rgba(28,29,33,1);
-  --light: rgb(242, 242, 246, 1);
+  --light: rgba(242, 242, 246, 1);
+  --tertiary: rgba(204,204,204,1);
+
 }
 
 body {
@@ -80,4 +82,25 @@ nav a:last-child{
   margin-right: 20px;
   margin-bottom: 45px;
 
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 45px;
+
+}
+
+.hero-banner {
+  background: var(--tertiary);
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary 0%), var(--primary)100%);
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  min-height: 30vh;
+  color: var(--light);
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
 }
