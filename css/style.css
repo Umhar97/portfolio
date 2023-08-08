@@ -5,10 +5,10 @@
 :root {
   --primary: rgba(54,1,63,1);
   --secondary: rgba(213,184,255,1);
+  --tertiary: rgba(51,51,51,1);
   --dark: rgba(28,29,33,1);
   --light: rgba(242, 242, 246, 1);
-  --tertiary: rgba(51,51,51,1);
-
+  
 }
 
 body {
@@ -202,3 +202,6 @@ main {
   font-size: 1.6rem;
 }
 
+#github-logo {
+  resize: both 150px;
+}
